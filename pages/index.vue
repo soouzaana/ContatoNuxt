@@ -19,7 +19,6 @@
 
 <script setup>
 const router = useRouter();
-
 const { contactList, deleteContact } = useContacts();
 const contacts = contactList();
 
